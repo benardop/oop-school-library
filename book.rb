@@ -6,11 +6,11 @@ class Book
   def initialize(author, title)
     @author = author
     @title = title
-    @rental = []
+    @rentals = []
   end
 
   def add_rental(date, person)
     new_rental = Rental.new(date, self, person)
-    @rental.push(new_rental)
+    @rentals.push(new_rental)
   end
 end
