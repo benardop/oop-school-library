@@ -2,7 +2,7 @@ require_relative './app'
 
 def read_book(file)
   puts ''
-  puts '**********************BOOKS************************'
+  puts '**********************LIST OF BOOKS************************'
   puts ''
   file.each do |el|
     book_title = el['value']['title']
@@ -14,7 +14,7 @@ end
 
 def read_people(file)
   puts ''
-  puts '**********************PEOPLE************************'
+  puts '**********************LIST OF PEOPLE************************'
   puts ''
 
   file.each do |el|
@@ -38,7 +38,7 @@ end
 
 def read_rental(ary, book_file, people_file)
   puts ''
-  puts '**********************RENTAL************************'
+  puts '**********************LIST OF RENTALS************************'
   puts ''
 
   ary.each do |el|
