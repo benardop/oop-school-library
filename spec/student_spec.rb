@@ -17,9 +17,4 @@ RSpec.describe 'Student' do
     it 'student plays hooky' do 
         expect(student.play_hooky).to eq('¯(ツ)/¯')
     end
-
-    it 'add_classroom method' do 
-        expect(student.add_classroom(clss)).to be_truthy
-    end
-
 end
