@@ -51,4 +51,10 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: false
 Layout/EndOfLine:
-  Enabled: false  
+  Enabled: false
+Layout/EndOfLine:
+  Enabled: False
+AllCops:
+  Exclude:
+    - './bin/rspec'
+  
