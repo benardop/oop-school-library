@@ -1,1 +1,1 @@
-[{"ref":"#<Book:0x0000020c9d10ce48>","value":{"title":"Rich dad poor dad","author":"Robert k","rentals":["#<Rental:0x0000020c9d10c100>"]}},{"ref":"#<Book:0x0000020c9d10c970>","value":{"title":"Think positive","author":"Shiv khera","rentals":["#<Rental:0x0000020c9d157970>"]}}]
+[{"ref":"#<Book:0x000002aa5f107fc8>","value":{"title":"Rich dad poor dad","author":"Robert k","rentals":["#<Rental:0x000002aa5f106100>"]}},{"ref":"#<Book:0x000002aa5f107f28>","value":{"title":"Think positive","author":"Shiv khera","rentals":["#<Rental:0x000002aa5f1057c8>"]}}]
